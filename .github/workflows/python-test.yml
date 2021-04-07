@@ -22,9 +22,7 @@ jobs:
         python-version: 3.9
     - name: Install wkthtmltopdf
       run: |
-        sudo apt-get install -y xfonts-base xfonts-75dpi
-        wget https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6-1/wkhtmltox_0.12.6-1.bionic_amd64.deb
-        sudo dpkg -i wkhtmltox_0.12.6-1.bionic_amd64.deb
+        sudo apt-get install xvfb libfontconfig wkhtmltopdf
     - uses: Gr1N/setup-poetry@v4
     - uses: actions/cache@v2
       with:
