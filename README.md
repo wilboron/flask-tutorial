@@ -13,7 +13,7 @@ docker build --tag flask-tutorial .
 ```
 Now you need to create the database
 
-- First setup the env for the flask app
+- First setup the env for the flask app.
 ```sh
 export FLASK_APP=flaskr
 ```
