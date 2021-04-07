@@ -26,7 +26,7 @@ def test_register_validate_input(client, username, password, message):
         '/auth/register',
         data={'username': username, 'password': password}
     )
-    assert message not in response.data
+    assert message in response.data
 
 
 def test_login(client, auth):
