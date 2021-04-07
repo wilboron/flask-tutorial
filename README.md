@@ -11,7 +11,7 @@ This application is run using docker, so first build the image.
 ```sh
 docker build --tag flask-tutorial .
 ```
-Now you need to create the database
+Now you need to create the database.
 
 - First setup the env for the flask app.
 ```sh
