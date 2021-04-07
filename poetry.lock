@@ -297,8 +297,8 @@ watchdog = ["watchdog"]
 
 [metadata]
 lock-version = "1.1"
-python-versions = "^3.9"
-content-hash = "63698dedbcf9a417e834cd0dd454d36541f844ee22d0513aeede3a462b861b69"
+python-versions = "^3.8"
+content-hash = "585b8828473d1da88aeba53b79d0c1bd75d5f73621679146a93dad6684fbd871"
 
 [metadata.files]
 apipkg = [
