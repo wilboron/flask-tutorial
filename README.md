@@ -17,7 +17,7 @@ Now you need to create the database
 ```sh
 export FLASK_APP=flaskr
 ```
-- Then create the database
+- Then create the database.
 ```sh
 flask init-db
 ```
